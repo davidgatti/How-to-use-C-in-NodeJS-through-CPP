@@ -9,5 +9,9 @@
   },
   "author": "",
   "license": "ISC",
-  "gypfile": true
+  "gypfile": true,
+  "dependencies": {
+    "nan": "2.4.0",
+    "node-gyp": "3.4.0"
+  }
 }
