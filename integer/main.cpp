@@ -1,7 +1,4 @@
 #include <nan.h>
-#include <iostream>
-#include <string>
-#include <fstream>
 
 using namespace std;
 using namespace Nan;
