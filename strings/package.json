@@ -1,0 +1,17 @@
+{
+  "name": "strings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "node-gyp rebuild",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "dependencies": {
+    "nan": "2.4.0",
+    "node-gyp": "3.4.0"
+  }
+}
