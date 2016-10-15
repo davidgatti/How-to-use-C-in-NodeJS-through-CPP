@@ -20,4 +20,4 @@ let combined = addon.combine(partOne, partTwo);
 //
 //	Display the result of the C++ calculation
 //
-console.log("The sum of %s and %s is %s: ", partOne, partTwo, combined.toString());
+console.log("By combining %s and %s we get: %s", partOne, partTwo, combined.toString());
