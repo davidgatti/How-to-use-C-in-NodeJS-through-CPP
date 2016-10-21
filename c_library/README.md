@@ -18,7 +18,7 @@ To be able to use our custom function, we need to create a header file that is g
 
 And again, the content of the `calc_mean.h` is super basic, just one line of code
 
-```
+```C
 int sum(int, int);
 ```
 
@@ -34,7 +34,7 @@ Now that we have our `.o` file we can use it to create the static library by usi
 
 Before we go to the C++ side of the project, lets create a `main.c` file, and see if our library will work with the following logic.
 
-```
+```C
 #include <stdio.h>
 #include "calc_sum.h"
 
