@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "calc_sum.h"
+#include "david_sum.h"
 
 int main() {
 
@@ -7,7 +7,7 @@ int main() {
   n1 = 5;
   n2 = 7;
 
-  x  = sum(v1, v2);
+  x  = david_sum(n1, n2);
 
   printf("The sum of %d and %d is %d\n", n1, n2, x);
 

@@ -22,13 +22,10 @@ And again, the content of the `calc_mean.h` is super basic, just one line of cod
 int sum(int, int);
 ```
 
-## 3. Create an object file out of the C file
+## 3. Create the library
 
-Now that we have our custom function, we need to turn the source code in to an object file with the following command `gcc -c calc_sum.c -o calc_sum.o`.
+The following command will crate a library out of our code `gcc -shared -o libdavid_sum.so -fPIC david_sum.c`.
 
-## 4. Archive the object to make a static library
-
-Now that we have our `.o` file we can use it to create the static library by using the `ar` command as follows: `ar rcs libsum.a calc_sum.o`.
 
 ## 5. Use the library
 
@@ -36,7 +33,7 @@ Before we go to the C++ side of the project, lets create a `main.c` file, and se
 
 ```C
 #include <stdio.h>
-#include "calc_sum.h"
+#include "david_sum.h"
 
 int main() {
 
@@ -44,7 +41,7 @@ int main() {
   n1 = 5;
   n2 = 7;
 
-  x  = sum(v1, v2);
+  x  = david_sum(n1, n2);
 
   printf("The sum of %d and %d is %d\n", n1, n2, x);
 
@@ -54,6 +51,6 @@ int main() {
 
 ## 6. Compile everything
 
-To compile the code with the library, you have to tell the compiler the name of the library that you want to link. You would think that the header file should help the compiler figure out what we want to add to the project, but no, you have to specificlaly tell the compiler what you want because this way, you can easily switch version of the library, or use another one with similar function name.
+To compile the code with the library, you have to tell the compiler the name of the library that you want to link. You would think that the header file should help the compiler figure out what we want to add to the project, but no, you have to specifically tell the compiler what you want because this way, you can easily switch version of the library, or use another one with similar function name.
 
-To do so, you run the compile the following way: `gcc main.c -o dynamically_linked -L. -lsum`.
+To do so, you run the compile the following way: `gcc main.c -o the_app -L. -ldavid_sum`.
