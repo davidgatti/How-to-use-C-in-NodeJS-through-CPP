@@ -1,6 +1,6 @@
 #include <nan.h>
 #include <iostream>
-#include "c_library/david_sum.h"
+#include "david_sum.h"
 
 using namespace std;
 using namespace Nan;
