@@ -1,1 +1,4 @@
-int david_sum(int, int);
+extern "C"
+{
+	int david_sum(int, int);
+}
