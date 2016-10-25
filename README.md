@@ -1,38 +1,29 @@
 # NodeJS to C through C++
 
-I’m excited about this article because it is a thought only because there is very limited information o the net and I know it will help anyone trying to figure out how to communicate between NodeJS and C.
-
-I know that this situation is very rare but when one day you might work at a company with some legacy C libraries that you have to use, and there is no dancing around it. I had a situation like this, I went through the pain to understand this part of NodeJS, and I want to live a trail behind for others to follow.
+Using C or C++ for that mater in NodeJS is more of a edge case then daily life. But I had to learn this trick the hard way. I think over all I spent 3 weeks to figure everything out. Sadly there is very little documentation and knowledge on the Internet and decided to put in one place everything that I learned while focusing on the most simple example possible, so you can focus on how to send and receive data to C/C++ and NodeJS. Once you'll understand this concept you'll be able to write your own low level code or take advantage of faster libraries to process your specific data.
 
 # Quick ground rules
 
-NodeJS communicates to C++ and not C directly. Meaning there is a big issue with types from NodeJS to C++ and from C++ to C. The C language is dead simple, and higher you go the more types you are going to get that are incompatible. The problem is not even interpretation of the data, for example Signed Integer vs. Unsigned.
+Buffers mind are the simplest way to communicate between the two worlds. You just crate a blob of data that can be sent through any means of communication, and on the other end you can integrate it however you want. You are not sending a specific type, that you then need to match at the other end.
 
-Buffers, the simplest way to communicate
+And since buffers are just dumps of raw bytes, any language will be able to handle them. The steps to create a successful app:
 
-Yes, in my mind this is the simplest way you can possibly communicate between different languages, because you crate a blob of data that can be sent through any means of communication, and on the other end you can integrate it however you want. You are not sending a specific type, that you then need to match at the other end. And Integer in Javascript is completely different form one in C++.
-
-And since buffers are just dumps of raw bytes, any language will be able to handle them.
-
-## First, lets prepare a buffer in NodeJS
-
-## Second, lets send the buffer to C++
-
-## Thirty, lets process the buffer in C++
-
-## Forth, lets convert it so C can handle it.
-
-## Fifth, lets do something with the data
-
-## Sixth, lets send the data back to NodeJS.
+1. First, lets prepare a buffer in NodeJS
+1. Second, lets send the buffer to C++
+1. Thirty, lets process the buffer in C++
+1. Forth, lets convert it so C can handle it.
+1. Fifth, lets do something with the data
+1. Sixth, lets send the data back to NodeJS.
 
 # WARNING: The V8 API is constantly changing
 
-One thing to consider when deciding to write a project using this approach is the ever changing API for V8, the engine that drives NodeJS. This means that if today something that you wrote, in the next or previous version might not work. This means you need to keep a constant eye on the NAN project and make sure to upgrade that module to make sure, that your code will keep work under newer or even older versions of NodeJS
+V8 is the environment used by NodeJS to process JavaScript files. This environment is written in C++, therefore we can use C++ in our project 🛎. The downside of V8 is that Google have a very poor documentation for it, and to make it even worst a new version of V8 won't necessarily be compatible with the previous one.
+
+That is why we have to hug 🤗 the hard working team of the Nan module for NodeJS, which basically wraps V8 in a consistent API, thus making our life much easier.
 
 # The book that made me understand
 
-I know this is going to sound wierd but part of me that made me want write this article is to be able and spread the word about the book “C++ and Node.js Integration.” - by Scott Frees, Ph.D.
+I know this is going to sound weird but part of me that made me want write this article is to be able and spread the word about the book “C++ and Node.js Integration.” - by Scott Frees, Ph.D.
 
 As he writes in his book, the information about NodeJS and C++ is so scarce on the internet that he took the time to learn everything that there was about this topic, and turn it in to a book, and I command him for that.
 
