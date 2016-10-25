@@ -23,20 +23,12 @@ That is why we have to hug 🤗 the hard working team of the Nan module for Node
 
 # The book that made me understand
 
-I know this is going to sound weird but part of me that made me want write this article is to be able and spread the word about the book “C++ and Node.js Integration.” - by Scott Frees, Ph.D.
-
-As he writes in his book, the information about NodeJS and C++ is so scarce on the internet that he took the time to learn everything that there was about this topic, and turn it in to a book, and I command him for that.
-
-Why should you buy this book after me writing about basically how to work with NodeJS and C++? Because I only talk about buffer, to me they are the most flexible form, and I was happy to master this. But there is a lot more to it. In the book you can learn about
-
-- how to send object,
-- how to write async code
-- and much more.
-
-Honestly I could not recommend this book more.
+An important aspect of learning to use C libraries with NodeJS was the book “C++ and Node.js Integration.” - by Scott Frees, Ph.D. If you want take this subject seriously, you should definitely check this book out. It talks in more detail about more stuff that this article can cover. What I'm writing is more of a template, a reminder of what I learned. It should help you get started, but if you would like to go deeper that book is fantastic.
 
 # To sum it all up
 
-This is another article in a series of mine that tries to demystify something that seams hard and show it for what it is. A simple way of doing something but which in this case had almost no information to learn how it really works. And if you like my approach, please consider giving this repo a 🌟.
+This is another article in a series of mine that tries to demystify something that seams to be hard, but in true honesty the way other developer explains something leves a lot to desire. Not to mention the little information that is out there.
+
+If you like my approach, please consider giving this repo a 🌟.
 
 Also check out my GitHub account, where I have other articles and apps that you might find interesting.
