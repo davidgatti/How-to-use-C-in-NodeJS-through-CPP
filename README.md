@@ -8,12 +8,11 @@ Buffers mind are the simplest way to communicate between the two worlds. You jus
 
 And since buffers are just dumps of raw bytes, any language will be able to handle them. The steps to create a successful app:
 
-1. First, lets prepare a buffer in NodeJS
-1. Second, lets send the buffer to C++
-1. Thirty, lets process the buffer in C++
-1. Forth, lets convert it so C can handle it.
-1. Fifth, lets do something with the data
-1. Sixth, lets send the data back to NodeJS.
+1. prepare a buffer in NodeJS,
+1. send the buffer to C++ using a function exposed to NodeJS in C++,
+1. access the buffer and save it in a variable of the right type,
+1. do something with the data,
+1. send the computed result back to NodeJS
 
 # WARNING: The V8 API is constantly changing
 
