@@ -20,6 +20,12 @@ V8 is the environment used by NodeJS to process JavaScript files. This environme
 
 That is why we have to hug 🤗 the hard working team of the Nan module for NodeJS, which basically wraps V8 in a consistent API, thus making our life much easier.
 
+# How to use this repository
+
+This repo has a bunch of directories containing fully working code showcasing how to one thing only. With this approach you can more easily see the differences how to handle different situations.
+
+Each directory has its own README.md file explaining how to run the project and possibly additional informations about some caveats to be aware off.
+
 # The book that made me understand
 
 An important aspect of learning to use C libraries with NodeJS was the book “C++ and Node.js Integration.” - by Scott Frees, Ph.D. If you want take this subject seriously, you should definitely check this book out. It talks in more detail about more stuff that this article can cover. What I'm writing is more of a template, a reminder of what I learned. It should help you get started, but if you would like to go deeper that book is fantastic.
