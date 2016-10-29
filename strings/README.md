@@ -10,4 +10,4 @@ Make sure you work only with ASCII characters and everything will work without a
 
 # How to run the example
 
-First of all you need to install Nan and Node-gyp, and to do so, you have to type in the console `npm install`, then just type `npm start`. Check the `package.json` file to learn about what the last command does.
+First of all you need to install [Nan](https://github.com/nodejs/nan) and [Node-gyp](https://github.com/nodejs/node-gyp), and to do so, you have to type in the console `npm install`, then just type `npm start`. Check the `package.json` file to learn about what the last command does.
