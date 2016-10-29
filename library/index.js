@@ -3,7 +3,7 @@
 //
 //	Load our C++ app as a module
 //
-let addon = require('./build/Release/c_library');
+let addon = require('./build/Release/david_sum');
 
 //
 //	Create two variables as buffers

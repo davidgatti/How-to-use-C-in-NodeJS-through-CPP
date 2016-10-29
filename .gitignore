@@ -40,3 +40,4 @@ build
 *.a
 *.so
 *.DS_Store
+/library/c_library/the_app
