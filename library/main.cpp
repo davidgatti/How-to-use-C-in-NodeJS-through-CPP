@@ -14,8 +14,8 @@ NAN_METHOD(Sum)
 	//
 	//	1.	Save the buffers that I passed from NodeJS in to local variables
 	//
-	unsigned int nrOne = info[0]->Uint32Value();
-	unsigned int nrDwo = info[1]->Uint32Value();
+	unsigned int nrOne = info[0]->Uint8Value();
+	unsigned int nrDwo = info[1]->Uint8Value();
 
 	cout << nrOne;
 	cout << nrDwo;
@@ -23,7 +23,7 @@ NAN_METHOD(Sum)
 	//
 	//	2.	Sum the two numbers together
 	//
-	uint32_t sum = david_sum(nrOne, nrDwo);
+	uint8_t sum = david_sum(nrOne, nrDwo);
 
 	//
 	//	->	Send the buffer back to NodeJS with the result of our calculation.
