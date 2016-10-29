@@ -6,6 +6,8 @@ This is our super basic library that have one function that takes two numbers an
 - *david_sum.h*: the header file
 - *main.c*: an example that uses the function to show that the library works in C
 
-To compile the library and the main app, you just have to type in the console `make`. Then if you list the content of the folder you'll see the library with the main app, that if you run, it will output in the terminal the result of the addition. Proving that everything works.
+To compile the library and the main app, you just have to type in the console `make`. Then if you list the content of the folder you'll see the library with the main app, called `the_app` (so original 😅), that if you run, will output in the terminal the result of the addition. Proving that everything works.
+
+`LD_LIBRARY_PATH=. ./the_app`
 
 Once this part is done, you don't have to move the compiled library from this directory because it is going to be linked in the `binding.gyp` file directly to hear.
