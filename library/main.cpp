@@ -20,7 +20,7 @@ NAN_METHOD(Sum)
 	//
 	//	2.	Sum the two numbers together
 	//
-	int sum = david_sum(nrOne, nrDwo);
+	uint32_t sum = david_sum(nrOne, nrDwo);
 
 	//
 	//	->	Send the buffer back to NodeJS with the result of our calculation.
