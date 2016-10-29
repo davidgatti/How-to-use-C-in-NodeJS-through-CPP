@@ -14,8 +14,8 @@ NAN_METHOD(Sum)
 	//
 	//	1.	Save the buffers that I passed from NodeJS in to local variables
 	//
-	unsigned int nrOne = info[0]->Uint32Value();
-	unsigned int nrDwo = info[1]->Uint32Value();
+	uint32_t nrOne = info[0]->Uint32Value();
+	uint32_t nrDwo = info[1]->Uint32Value();
 
 	//
 	//	2.	Sum the two numbers together
