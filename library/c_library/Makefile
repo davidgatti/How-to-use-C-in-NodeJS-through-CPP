@@ -7,5 +7,8 @@ library:
 app:
 	gcc main.c -o the_app -L. -ldavid_sum
 
+run:
+	LD_LIBRARY_PATH=. ./the_app
+
 clean:
 	rm libdavid_sum.so && rm the_app
