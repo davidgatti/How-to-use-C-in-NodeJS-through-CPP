@@ -17,9 +17,6 @@ NAN_METHOD(Sum)
 	unsigned int nrOne = info[0]->Uint32Value();
 	unsigned int nrDwo = info[1]->Uint32Value();
 
-	cout << nrOne;
-	cout << nrDwo;
-
 	//
 	//	2.	Sum the two numbers together
 	//
