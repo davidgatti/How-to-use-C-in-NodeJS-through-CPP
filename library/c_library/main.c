@@ -5,6 +5,7 @@
 int main()
 {
 	uint8_t n1, n2, x;
+
 	n1 = 5;
 	n2 = 7;
 
