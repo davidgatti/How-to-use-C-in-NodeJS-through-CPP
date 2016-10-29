@@ -8,6 +8,14 @@ First of all you need to install `Nan` and `Node-gyp`. To do so, you have to typ
 
 # Issues that you need to be aware of
 
+## macOS != Linux
+
+This is an important one. If you try to run this project on your Mac, it won't work because of saddle differences in how macOS manages libraries. If you want to find out more about this, Google for SIP (System Integrity Protection) and you'll find many detailed explanation of this mode, know also as *rootless*.
+
+The best environment to work with libraries is Linux.
+
+## Extern
+
 If you take a closer look at content of this folder you will see that there are two `david_sum.h` files. One hear, and the other in the `c_libarary` folder. The content of those file is different. The header linked in the C++ file points to the `.h` file with the method wrapped in `extern "C"`.
 
 `extern` is crucial to allow C++ to load C functions after decoration ([name mangling](https://en.wikipedia.org/wiki/Name_mangling)), since our C library is in a compiled form.
