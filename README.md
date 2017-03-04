@@ -30,7 +30,7 @@ Each directory has its own README.md file explaining how to run the project and,
 
 The book [C++ and Node.js Integration by Scott Frees, Ph.D](https://scottfrees.com/ebooks/nodecpp/) was an important aspect of learning to use C libraries with NodeJS. If you want take this subject seriously, you should definitely check this book out. It talks in greater detail about more stuff than this article can cover. What I'm writing is more of a template, a reminder of what I learned. It should help you get started, but if you would like to go deeper, that book is fantastic.
 
-# Other
+# The End
 
 If you've enjoyed this article/project, please consider giving it a 🌟. Also check out my [GitHub account] (https://github.com/davidgatti), where I have other articles and apps that you might find interesting.
 
