@@ -30,8 +30,24 @@ Each directory has its own README.md file explaining how to run the project and,
 
 The book [C++ and Node.js Integration by Scott Frees, Ph.D](https://scottfrees.com/ebooks/nodecpp/) was an important aspect of learning to use C libraries with NodeJS. If you want take this subject seriously, you should definitely check this book out. It talks in greater detail about more stuff than this article can cover. What I'm writing is more of a template, a reminder of what I learned. It should help you get started, but if you would like to go deeper, that book is fantastic.
 
-# To sum it all up
+# Other
 
-This article is part of my series that tries to demystify topics that are deemed hard, but where in truth they are just poorly explained. If you like my approach, please consider giving this repo a 🌟.
+If you've enjoyed this article/project, please consider giving it a 🌟. Also check out my [GitHub account] (https://github.com/davidgatti), where I have other articles and apps that you might find interesting.
 
-Also check out my [GitHub](https://github.com/davidgatti) account, where I have other articles and apps that you might find interesting.
+## Where to follow
+
+You can follow me on social media 🐙😇, at the following locations:
+
+- [GitHub](https://github.com/davidgatti)
+- [Twitter](https://twitter.com/dawidgatti)
+- [Instagram](https://www.instagram.com/gattidavid/)
+
+## More about me
+
+I don’t only live on GitHub, I try to do many things not to get bored 🙃. To learn more about me, you can visit the following links:
+
+- [Podcasts](http://david.gatti.pl/podcasts)
+- [Articles](http://david.gatti.pl/articles)
+- [Technical Articles](http://david.gatti.pl/technical_articles)
+- [Software Projects](http://david.gatti.pl/software_projects)
+- [Hardware Projects](http://david.gatti.pl/hardware_projects)
