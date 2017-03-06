@@ -1,4 +1,4 @@
-# NodeJS to C through C++
+# C in NodeJS through C++
 
 Using C or C++ in NodeJS is more of an edge case than daily life. But I decided to put down what I learned because there is little information on the Internet about this topic. My goal is to focus on simple example, so you can focus on how to send data to and receive data from C/C++ and NodeJS. Once you understand this concept, you'll be able to write your own low-level code or take advantage of faster libraries to process your specific information.
 
