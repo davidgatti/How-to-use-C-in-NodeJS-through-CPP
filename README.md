@@ -32,7 +32,7 @@ The book [C++ and Node.js Integration by Scott Frees, Ph.D](https://scottfrees.c
 
 # The End
 
-If you've enjoyed this article/project, please consider giving it a 🌟. Also check out my [GitHub account] (https://github.com/davidgatti), where I have other articles and apps that you might find interesting.
+If you've enjoyed this article/project, please consider giving it a 🌟. Also check out my [GitHub account](https://github.com/davidgatti), where I have other articles and apps that you might find interesting.
 
 ## Where to follow
 
